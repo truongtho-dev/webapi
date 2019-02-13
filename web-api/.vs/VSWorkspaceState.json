@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\web api",
+    "\\web api\\bin",
+    "\\web api\\bin\\Debug",
+    "\\web api\\bin\\Release",
+    "\\web api\\Controllers"
+  ],
+  "SelectedNode": "\\web api\\Controllers\\CustomerController.cs",
+  "PreviewInSolutionExplorer": false
+}
