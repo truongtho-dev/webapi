@@ -12949,11 +12949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DISK (E)\\web-api\\web api\\web api.csproj",
+      "projectUniqueName": "E:\\DISK (E)\\PROJECT\\fix webapi\\web-api\\web api\\web api.csproj",
       "projectName": "web api",
-      "projectPath": "E:\\DISK (E)\\web-api\\web api\\web api.csproj",
+      "projectPath": "E:\\DISK (E)\\PROJECT\\fix webapi\\web-api\\web api\\web api.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\DISK (E)\\web-api\\web api\\obj\\",
+      "outputPath": "E:\\DISK (E)\\PROJECT\\fix webapi\\web-api\\web api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

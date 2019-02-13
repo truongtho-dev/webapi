@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace CustomerApi.Models
+namespace UserApi.Models
 {
-    public class CustomerContext : DbContext
+    public class UserContext : DbContext
     {
-        public CustomerContext(DbContextOptions<CustomerContext> options)
+        public UserContext(DbContextOptions<UserContext> options)
             : base(options)
         {
         }
 
-        public DbSet<Customer> Customers { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

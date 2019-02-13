@@ -11,9 +11,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using CustomerApi.Models;
+using UserApi.Models;
 
-namespace CustomerApi
+namespace UserApi
 {
     public class Startup
     {
@@ -27,8 +27,8 @@ namespace CustomerApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CustomerContext>(opt =>
-                opt.UseInMemoryDatabase("CustomerList"));
+            services.AddDbContext<UserContext>(opt =>
+                opt.UseInMemoryDatabase("UserList"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
